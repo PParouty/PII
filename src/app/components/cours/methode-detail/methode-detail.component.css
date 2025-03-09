@@ -1,0 +1,9 @@
+/* harmonisation du contenu dans les methodes */
+
+pre {
+    font-family: inherit;
+    font-size: 16px;
+
+    white-space: pre-wrap;
+
+}

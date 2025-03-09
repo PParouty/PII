@@ -1,0 +1,6 @@
+/* jouer avec margin top pour passer en bas de la navbar */
+
+
+mat-card {
+    margin-top: 80px;
+}

@@ -63,7 +63,7 @@ export class ExercicesComponent implements OnInit {
   //  Vérifier les réponses puis afficher le score
   validerReponse(): void {
     if (!this.exerciceSelectionne) {
-      this.messageCorrection = "⚠️ Aucun exercice sélectionné.";
+      this.messageCorrection = " Aucun exercice sélectionné.";
       return;
     }
 

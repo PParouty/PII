@@ -1,0 +1,11 @@
+<h2> Méthodes proposées pour {{ matiere }}</h2>
+
+<mat-list role="list">
+    <mat-list-item *ngFor="let methode of methodes"> <!-- Parcours parmis les methodes -->
+        <button mat-button color="accent" [routerLink]="['/cours', matiere, methode.id]">
+            {{ methode.titre }}
+        </button>
+
+    </mat-list-item>
+</mat-list>
+<button mat-button color="accent" (click)="retour()">⬅ Retour</button>
