@@ -17,72 +17,101 @@ import { FormsModule } from '@angular/forms';
 })
 
 
+
 export class ExercicesComponent implements OnInit {
   exercices: Exercice[] = [];
   exerciceSelectionne: Exercice | null = null;
   questions: QCM[] | undefined = [];
-  reponseUtilisateur: string = "";  // pour stocker la reponse de l'utilisateur
-  correctionVisible: boolean = false; // de base on affiche pas la correction 
+  reponsesUtilisateur: string[] = [];  // Stocke les réponses de l'utilisateur pour ensuite comparer avec la correction
+  reponseUtilisateur: string = "";  // Stocke une seule réponse pour les exercices texte/calculs -> posera probleme plus tard surement car il faudra comparer les string -> bon que en calcule
+  correctionVisible: boolean = false;
   messageCorrection: string = "";
+  score: number = 0;
 
-  constructor(private exerciceService: ExerciceService) { } // on inject le service
+  constructor(private exerciceService: ExerciceService) { }
 
   ngOnInit(): void {
-    this.exercices = this.exerciceService.getExercices(); // on applique l'init
+    this.exercices = this.exerciceService.getExercices();
   }
+
+
+
 
   choisirExercice(exercice: Exercice): void {
     this.exerciceSelectionne = exercice;
-    this.reponseUtilisateur = "";
+
+    // VS undefined de merde
+    const nombreQuestions = exercice.type === 'QCM' ? this.exerciceService.getQCMById(exercice.id)?.length ?? 0 : 1;
+
+    this.reponsesUtilisateur = new Array(nombreQuestions).fill("");
+
     this.correctionVisible = false;
     this.messageCorrection = "";
 
     if (exercice.type === 'QCM') {
-      this.questions = this.exerciceService.getQCMById(exercice.id);
+      this.questions = this.exerciceService.getQCMById(exercice.id) || [];
     } else {
       this.questions = undefined;
     }
   }
 
-  validerReponse(): void {
-    // On verifie que lexo existe
-    if (!this.exerciceSelectionne || !this.exerciceSelectionne.correction) {
-      return; // on stop la methode si l'exo existe pas ou qu'il n'a pas de correction
-    }
+  // Stocker la réponse sélectionnée pour chaque question pour les comparer avec les correcions
+  enregistrerReponse(index: number, reponse: string): void {
+    this.reponsesUtilisateur[index] = reponse;
+  }
 
-    // Vérification que la répons existe
-    if (!this.reponseUtilisateur || this.reponseUtilisateur.trim() === "") {  // .trim suprime les espaces en trop dans les réponses 
-      this.messageCorrection = " Il faut entrer une valeur svp.";
+  //  Vérifier les réponses puis afficher le score
+  validerReponse(): void {
+    if (!this.exerciceSelectionne) {
+      this.messageCorrection = "⚠️ Aucun exercice sélectionné.";
       return;
     }
 
-    // Comparaison pour un QCM
-    if (this.exerciceSelectionne.type === 'QCM') {
-      if (this.exerciceSelectionne.correction.toLowerCase() === this.reponseUtilisateur.toLowerCase()) { // on met tout en minuscule pour ne pas avoir de probleme de comparaison
-        this.messageCorrection = "Bravo ! Bonne réponse.";
+    // Cas des QCM
+    if (this.exerciceSelectionne.type === 'QCM' && this.questions) {
+      let bonnesReponses = 0;
+
+      this.questions.forEach((question, index) => {
+        if (this.reponsesUtilisateur[index] && this.reponsesUtilisateur[index] === question.correction) {
+          bonnesReponses++;
+        }
+      });
+
+      this.score = Math.round((bonnesReponses / this.questions.length) * 100);
+      this.messageCorrection = ` Score : ${bonnesReponses}/${this.questions.length} (${this.score}%)`;
+
+      if (this.score === 100) {
+        this.messageCorrection += " Bravo, toutes les réponses sont correctes !";
+      } else if (this.score >= 50) {
+        this.messageCorrection += " Pas mal, mais vous pouvez faire mieux !";
       } else {
-        this.messageCorrection = " Mauvaise réponse. Retournez travailler !";
+        this.messageCorrection += " Attention, révisez encore un peu !";
       }
-    } else {
-      // Comparaison pour un exo ou l'utilisateur rentre lui même la réponse 
-      if (this.reponseUtilisateur.trim().toLowerCase() === this.exerciceSelectionne.correction.trim().toLowerCase()) {
-        this.messageCorrection = "Bravo ! Bonne réponse.";
-      } else {
-        this.messageCorrection = "Mauvaise réponse. Retournez travailler !";
-      }
+
+      this.correctionVisible = true;  // Afficher le score pour user
+      return;
     }
 
-    this.correctionVisible = true;  // On affiche la correction 
+    // Cas des exercices texte/calcul
+    if (this.exerciceSelectionne.type !== 'QCM') {
+      // Verification que l'utilisateur a rentré une valeur
+      if (!this.reponseUtilisateur || this.reponseUtilisateur.trim() === "") { // on essai de diminuer la casse
+        this.messageCorrection = "Veuillez entrer une réponse avant de valider.";
+        return;
+      }
+
+      // Comparaison de la réponse utilisateur avec la correction
+      if (this.exerciceSelectionne.correction &&
+        this.reponseUtilisateur.trim().toLowerCase() === this.exerciceSelectionne.correction.trim().toLowerCase()) { // on essai de diminuer la casse
+        this.messageCorrection = "Bravo ! Bonne réponse.";
+      } else {
+        this.messageCorrection = `Mauvaise réponse. La correction est : ${this.exerciceSelectionne.correction}`;
+      }
+
+      this.correctionVisible = true;  // Afficher la correction après validation de la réponse par l'utilisareur
+    }
   }
-
-
-
-
 }
-
-
-
-
 /*
 
 export class ExercicesComponent implements OnInit {

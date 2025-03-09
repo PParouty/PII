@@ -7,39 +7,37 @@
     </li>
 </ul>
 
-
+<!-- Affichage de l'exercice sélectionné -->
 <div *ngIf="exerciceSelectionne">
     <h3>Exercice sélectionné : {{ exerciceSelectionne.titre }}</h3>
     <p><strong>Matière :</strong> {{ exerciceSelectionne.matiere }}</p>
     <p><strong>Description :</strong> {{ exerciceSelectionne.description }}</p>
 
-
+    <!--  Affichage des questions QCM -->
     <div *ngIf="questions">
         <h4>Choisissez une réponse :</h4>
-        <div *ngFor="let question of questions">
+        <div *ngFor="let question of questions; let i = index">
             <p><strong>{{ question.question }}</strong></p>
-            <button *ngFor="let option of question.options" mat-button (click)="reponseUtilisateur = option">
+            <button *ngFor="let option of question.options" mat-button
+                [class.selected]="reponsesUtilisateur[i] === option" (click)="enregistrerReponse(i, option)">
                 {{ option }}
             </button>
         </div>
     </div>
 
-
-    <div *ngIf="!questions">
-        <h4>Votre réponse :</h4>
-        <input type="text" [(ngModel)]="reponseUtilisateur" placeholder="Tapez votre réponse ici">
+    <!-- Champ de texte pour les exercices texte/calcul -->
+    <div *ngIf="exerciceSelectionne && exerciceSelectionne.type !== 'QCM'">
+        <p><strong>Votre réponse :</strong></p>
+        <input type="text" [(ngModel)]="reponseUtilisateur" placeholder="Tapez votre réponse ici..." />
     </div>
 
-
+    <!-- Bouton  valider -->
     <button mat-button (click)="validerReponse()">Valider</button>
 
-
+    <!-- Feedback et correction après validation -->
     <p *ngIf="correctionVisible">{{ messageCorrection }}</p>
 
-
-    <p *ngIf="correctionVisible"><strong>Correction :</strong> {{ exerciceSelectionne.correction }}</p>
-
-
+    <!-- Bouton  réinitialiser -->
     <button mat-button (click)="exerciceSelectionne = null; questions = undefined; correctionVisible = false;">
         Réinitialiser
     </button>
