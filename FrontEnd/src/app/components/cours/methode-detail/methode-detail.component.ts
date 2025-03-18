@@ -26,7 +26,7 @@ export class MethodeDetailComponent {
 
   ngOnInit() {
     const matiere = this.route.snapshot.paramMap.get('matiere');
-    const id = Number(this.route.snapshot.paramMap.get('id'));
+    const id = Number(this.route.snapshot.paramMap.get('id'));  // Snapshot => recupere la valeur de la route qd le composant ce charge. ParMap recupere dans l'url l'element qu'on lui demande, ici c'est l'ID. pas tres secure mais cest un debut 
 
     if (matiere) {
       this.methode = this.coursService.getMethodeById(matiere, id) as Methode;
