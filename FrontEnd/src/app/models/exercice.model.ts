@@ -42,7 +42,7 @@ export interface Exercice {
     description: string;
     niveau: Niveau;
     correction?: string; // Optionnel si c'est un QCM
-    type: 'QCM' | 'Texte' | 'Numérique' | 'Calculs';
+    type: 'QCM' | 'Texte' | 'Calculs';
     options?: string[];
     QCM?: QCM[]; // Liste des questions pour le type QCM
 }

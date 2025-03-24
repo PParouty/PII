@@ -1,11 +1,20 @@
 <h2>Liste des Exercices</h2>
-<ul>
-    <li *ngFor="let exercice of exercices">
-        <button mat-button (click)="choisirExercice(exercice)">
-            {{ exercice.titre }} - {{ exercice.matiere }} ({{ exercice.niveau }})
-        </button>
-    </li>
-</ul>
+
+<!-- Affichage conditionnel si les exercices sont bien chargés -->
+<div *ngIf="exercices.length > 0; else loading">
+    <ul>
+        <li *ngFor="let exercice of exercices">
+            <button mat-button (click)="choisirExercice(exercice)">
+                {{ exercice.titre }} - {{ exercice.matiere }} ({{ exercice.niveau }})
+            </button>
+        </li>
+    </ul>
+</div>
+
+<!-- Template de chargement si cest pas encore chargé -->
+<ng-template #loading>
+    <p>⏳ ⏳ ⏳ Chargement des exercices en cours ⏳.⏳.⏳.⏳</p>
+</ng-template>
 
 <!-- Affichage de l'exercice sélectionné -->
 <div *ngIf="exerciceSelectionne">
@@ -14,7 +23,7 @@
     <p><strong>Description :</strong> {{ exerciceSelectionne.description }}</p>
 
     <!--  Affichage des questions QCM -->
-    <div *ngIf="questions">
+    <div *ngIf="questions && exerciceSelectionne?.type === 'QCM'">
         <h4>Choisissez une réponse :</h4>
         <div *ngFor="let question of questions; let i = index">
             <p><strong>{{ question.question }}</strong></p>
@@ -38,7 +47,7 @@
     <p *ngIf="correctionVisible">{{ messageCorrection }}</p>
 
     <!-- Bouton  réinitialiser -->
-    <button mat-button (click)="exerciceSelectionne = null; questions = undefined; correctionVisible = false;">
+    <button mat-button (click)="reinitialiser()">
         Réinitialiser
     </button>
 </div>

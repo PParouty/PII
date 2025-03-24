@@ -1,7 +1,7 @@
 using backend.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
-using System.Text.Json.Serialization; // pour combattre l'erreur 500 a cause des references circulaire
+using System.Text.Json.Serialization; // pour combattre l'erreur 500 a cause des references circulaire + pour combattre le problem de l'enum en int
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,6 +29,7 @@ builder.Services.AddDbContext<DataContext>(options =>
 builder.Services.AddControllers().AddJsonOptions(options =>
 {
     options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles; // gerer le pb qcm/exercice qui cycle 
+    options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()); // gerer le soucis d'enum string vs int 
 });
 
 
@@ -62,6 +63,14 @@ if (app.Environment.IsDevelopment())
 */
 
 // Active les endpoints pour les API
+
+app.UseCors(policy =>
+    policy.WithOrigins("http://localhost:4200")
+          .AllowAnyHeader()
+          .AllowAnyMethod()
+);
+
+
 app.MapControllers();
 
 app.Run();

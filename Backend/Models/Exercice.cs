@@ -10,6 +10,9 @@ Par soucis de visibilité on va separer QCM.cs et Exercice.cs en 2 class differe
 On va aussi definir les enums ailleur pour garder une clareté dans nos class et possiblement réutiliser plus tard si beosin
 
 */
+
+using System.Text.Json.Serialization;
+
 namespace backend.Models
 {
     public class Exercice
@@ -21,6 +24,8 @@ namespace backend.Models
         public Niveau Niveau { get; set; } // un enum ici
         public TypeExercice Type { get; set; } // l'auter enum
         public string? Correction { get; set; } // comme dans le front, les qcm n'ont pas une partie correction mais une correction integré directement dans l'objet qcm
+
+        [JsonPropertyName("QCM")] // pour regler le probleme QCM vs qcm 
         public List<QCM>? QCM { get; set; } // Nullable vu que l'exo peut ne pas etre un QCM 
     }
 }
