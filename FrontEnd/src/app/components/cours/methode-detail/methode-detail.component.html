@@ -1,18 +1,23 @@
-<mat-card *ngIf="methode">
+<mat-card *ngIf="methode; else loading">
     <h2>{{ methode.titre }}</h2>
-    <h3> Introduction</h3>
+
+    <h3>📘 Introduction</h3>
     <p>{{ methode.introduction }}</p>
 
     <h3>📖 Contenu</h3>
     <pre>{{ methode.contenu }}</pre>
 
-    <h3 *ngIf="methode.exemples && methode.exemples.length > 0">🔎 Exemples</h3>
-    <ul *ngIf="methode.exemples && methode.exemples.length > 0">
+    <h3 *ngIf="methode.exemples?.length">🔎 Exemples</h3>
+    <ul *ngIf="methode.exemples?.length">
         <li *ngFor="let exemple of methode.exemples">{{ exemple }}</li>
     </ul>
 
-    <h3> Conclusion</h3>
+    <h3> 🤓 Conclusion 🤓</h3>
     <p>{{ methode.conclusion }}</p>
 
     <button mat-button color="primary" (click)="retour()">⬅ Retour</button>
 </mat-card>
+
+<ng-template #loading>
+    <p>⏳ Chargement de la méthode..⏳.</p>
+</ng-template>

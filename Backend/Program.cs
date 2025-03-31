@@ -62,6 +62,14 @@ if (app.Environment.IsDevelopment())
 
 */
 
+
+/* remplissage cours et methode 
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<DataContext>();
+    SeedData.Initialize(context);
+}
+*/
 // Active les endpoints pour les API
 
 app.UseCors(policy =>

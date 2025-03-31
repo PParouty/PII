@@ -26,8 +26,8 @@ namespace backend.Data
         public DbSet<QCM> QCMs { get; set; }
 
 
-        // public DbSet<Cours> Cours { get; set; } // pour plus tard finalement
-        // public DbSet<Methode> Methodes { get; set; } // pour plus tard finalement 
+        public DbSet<Cours> Cours { get; set; } // pour plus tard finalement // UPDATE : C'est l'heure de les ajouter
+        public DbSet<Methode> Methodes { get; set; } // pour plus tard finalement // UPDATE : C'est l'heure de les ajouter
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -47,6 +47,26 @@ namespace backend.Data
                 .WithOne(q => q.Exercice!)
                 .HasForeignKey(q => q.ExerciceId) // -> on a bien definie de clef etranger dans QCM.cs 
                 .OnDelete(DeleteBehavior.Cascade);
+
+
+
+            modelBuilder.Entity<Methode>()
+                .Property(m => m.Exemples)
+                .HasConversion(
+                    v => string.Join("|||", v),
+                    v => v.Split("|||", StringSplitOptions.None).ToList()
+                );
+
+            modelBuilder.Entity<Cours>()
+                .HasMany(c => c.Methodes)
+                .WithOne(m => m.Cours!)
+                .HasForeignKey(m => m.CoursId) // meme systeme que pour les exo, la clef etrangere est defiine
+                .OnDelete(DeleteBehavior.Cascade);
+
+
         }
+
+
+
     }
 }
