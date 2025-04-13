@@ -21,13 +21,13 @@ import { RouterModule } from '@angular/router';
 export class ListeMatieresComponent {
   matieres: string[] = [];
   matiereImages: { [key: string]: string } = {
-    'maths': 'assets/img/matieres/maths.png',
-    'histoire': 'assets/img/matieres/histoire.png',
-    'français': 'assets/img/matieres/francais.png',
-    'svt': 'assets/img/matieres/svt.png',
-    'musique': 'assets/img/matieres/musique.png',
-    'arts plastiques': 'assets/img/matieres/arts.png',
-    'physique-Chimie': 'assets/img/matieres/physique.png'
+    'Maths': 'assets/img/matieres/maths.png',
+    'Histoire': 'assets/img/matieres/histoire.png',
+    'Français': 'assets/img/matieres/francais.png',
+    'SVT': 'assets/img/matieres/svt.png',
+    'Musique': 'assets/img/matieres/musique.png',
+    'Arts Plastiques': 'assets/img/matieres/arts.png',
+    'Physique-Chimie': 'assets/img/matieres/physique.png'
   };
   constructor(private coursService: CoursService) { }
 
