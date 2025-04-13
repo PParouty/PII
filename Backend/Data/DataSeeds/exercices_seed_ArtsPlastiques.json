@@ -1,0 +1,247 @@
+[
+    {
+        "titre": "QCM : Reconnaître les couleurs primaires",
+        "matiere": "Arts plastiques",
+        "description": "Testez vos connaissances sur les couleurs de base utilisées en peinture.",
+        "Niveau": "Facile",
+        "Type": "QCM",
+        "QCM": [
+            {
+                "question": "Parmi ces couleurs, laquelle est une couleur primaire ?",
+                "options": [
+                    "Vert",
+                    "Orange",
+                    "Bleu",
+                    "Violet"
+                ],
+                "correction": "Bleu"
+            },
+            {
+                "question": "Quels sont les trois couleurs primaires ?",
+                "options": [
+                    "Bleu, rouge, jaune",
+                    "Rouge, vert, violet",
+                    "Noir, blanc, gris",
+                    "Orange, violet, vert"
+                ],
+                "correction": "Bleu, rouge, jaune"
+            },
+            {
+                "question": "Avec quelles couleurs peut-on obtenir de l’orange ?",
+                "options": [
+                    "Bleu et rouge",
+                    "Jaune et rouge",
+                    "Vert et jaune",
+                    "Rouge et violet"
+                ],
+                "correction": "Jaune et rouge"
+            },
+            {
+                "question": "Quelle couleur ne peut pas être obtenue par mélange ?",
+                "options": [
+                    "Violet",
+                    "Orange",
+                    "Bleu",
+                    "Vert"
+                ],
+                "correction": "Bleu"
+            }
+        ]
+    },
+    {
+        "titre": "QCM : Identifier les techniques de dessin",
+        "matiere": "Arts plastiques",
+        "description": "Connaissez-vous les principales techniques utilisées en dessin ?",
+        "Niveau": "Facile",
+        "Type": "QCM",
+        "QCM": [
+            {
+                "question": "Quelle technique utilise principalement un crayon ?",
+                "options": [
+                    "Aquarelle",
+                    "Fusain",
+                    "Crayonné",
+                    "Collage"
+                ],
+                "correction": "Crayonné"
+            },
+            {
+                "question": "Quelle technique produit des effets flous et sombres ?",
+                "options": [
+                    "Feutre",
+                    "Encre de Chine",
+                    "Fusain",
+                    "Pastel sec"
+                ],
+                "correction": "Fusain"
+            },
+            {
+                "question": "Quel outil permet de créer des aplats de couleurs très vives ?",
+                "options": [
+                    "Crayon de bois",
+                    "Pastel gras",
+                    "Stylo bille",
+                    "Fusain"
+                ],
+                "correction": "Pastel gras"
+            },
+            {
+                "question": "Quelle technique utilise de l’eau et des pigments transparents ?",
+                "options": [
+                    "Acrylique",
+                    "Huile",
+                    "Aquarelle",
+                    "Gouache"
+                ],
+                "correction": "Aquarelle"
+            }
+        ]
+    },
+    {
+        "titre": "QCM : Comprendre la composition",
+        "matiere": "Arts plastiques",
+        "description": "Évaluez votre capacité à structurer une image.",
+        "Niveau": "Moyen",
+        "Type": "QCM",
+        "QCM": [
+            {
+                "question": "Qu'est-ce que la règle des tiers ?",
+                "options": [
+                    "Une méthode pour tracer des lignes droites",
+                    "Une technique pour diviser l'image en 3 zones horizontales",
+                    "Une manière d'équilibrer une image en la divisant en 9 parties",
+                    "Une règle pour choisir trois couleurs dans un dessin"
+                ],
+                "correction": "Une manière d'équilibrer une image en la divisant en 9 parties"
+            },
+            {
+                "question": "Pourquoi laisse-t-on parfois du vide dans une composition ?",
+                "options": [
+                    "Parce qu'on n’a pas eu le temps de terminer",
+                    "Pour faire des économies de papier",
+                    "Pour équilibrer les éléments visuels",
+                    "Pour éviter de trop dessiner"
+                ],
+                "correction": "Pour équilibrer les éléments visuels"
+            },
+            {
+                "question": "Quel élément attire le plus l’œil dans une image ?",
+                "options": [
+                    "Le cadre",
+                    "Les zones sombres",
+                    "Le centre",
+                    "Le point focal"
+                ],
+                "correction": "Le point focal"
+            },
+            {
+                "question": "Que permet une ligne de force dans une image ?",
+                "options": [
+                    "Séparer les couleurs",
+                    "Guider le regard du spectateur",
+                    "Ajouter du texte",
+                    "Dessiner plus vite"
+                ],
+                "correction": "Guider le regard du spectateur"
+            }
+        ]
+    },
+    {
+        "titre": "QCM : Distinguer les styles artistiques",
+        "matiere": "Arts plastiques",
+        "description": "Associez des œuvres et des artistes à leurs styles.",
+        "Niveau": "Difficile",
+        "Type": "QCM",
+        "QCM": [
+            {
+                "question": "Quel style est associé à Picasso ?",
+                "options": [
+                    "Réalisme",
+                    "Cubisme",
+                    "Romantisme",
+                    "Impressionnisme"
+                ],
+                "correction": "Cubisme"
+            },
+            {
+                "question": "Quelle est la caractéristique principale de l’art abstrait ?",
+                "options": [
+                    "Il représente fidèlement la réalité",
+                    "Il montre des scènes religieuses",
+                    "Il utilise des formes et des couleurs sans représenter le réel",
+                    "Il se fait uniquement en noir et blanc"
+                ],
+                "correction": "Il utilise des formes et des couleurs sans représenter le réel"
+            },
+            {
+                "question": "Quel artiste est un représentant de l’impressionnisme ?",
+                "options": [
+                    "Monet",
+                    "Picasso",
+                    "Michel-Ange",
+                    "Pollock"
+                ],
+                "correction": "Monet"
+            },
+            {
+                "question": "Quel style se caractérise par l'utilisation de la perspective et des proportions parfaites ?",
+                "options": [
+                    "Baroque",
+                    "Cubisme",
+                    "Renaissance",
+                    "Art nouveau"
+                ],
+                "correction": "Renaissance"
+            }
+        ]
+    },
+    {
+        "titre": "QCM : Utiliser les émotions dans l’art",
+        "matiere": "Arts plastiques",
+        "description": "Comprenez comment les artistes traduisent les émotions visuellement.",
+        "Niveau": "Difficile",
+        "Type": "QCM",
+        "QCM": [
+            {
+                "question": "Quelle couleur est souvent associée à la tristesse ?",
+                "options": [
+                    "Rouge",
+                    "Jaune",
+                    "Bleu",
+                    "Orange"
+                ],
+                "correction": "Bleu"
+            },
+            {
+                "question": "Quel type de trait peut évoquer la colère ?",
+                "options": [
+                    "Des courbes douces",
+                    "Des traits droits et calmes",
+                    "Des lignes brusques et anguleuses",
+                    "Des traits effacés"
+                ],
+                "correction": "Des lignes brusques et anguleuses"
+            },
+            {
+                "question": "Quel artiste a souvent représenté ses émotions dans ses autoportraits ?",
+                "options": [
+                    "Leonard de Vinci",
+                    "Van Gogh",
+                    "Frida Kahlo",
+                    "Matisse"
+                ],
+                "correction": "Frida Kahlo"
+            },
+            {
+                "question": "Quelle technique permet une expression spontanée et émotionnelle ?",
+                "options": [
+                    "Collage structuré",
+                    "Dripping (gouttes de peinture)",
+                    "Photographie documentaire",
+                    "Perspective linéaire"
+                ],
+                "correction": "Dripping (gouttes de peinture)"
+            }
+        ]
+    }
+]

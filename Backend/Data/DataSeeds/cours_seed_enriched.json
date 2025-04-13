@@ -1,0 +1,57 @@
+[
+  {
+    "matiere": "Français",
+    "methodes": [
+      {
+        "titre": "Analyser un poème",
+        "introduction": "La poésie est une forme littéraire où chaque mot est choisi avec soin. Elle exprime des sentiments, des idées, ou évoque des images à travers le rythme et les figures de style.",
+        "contenu": "Analyser un poème, c’est en comprendre le sens, la forme, les émotions et les procédés stylistiques. On commence souvent par identifier la structure : strophes, vers, rimes. Ensuite, on repère les figures de style : la métaphore, l'allitération, l’anaphore, etc. Enfin, on tente de comprendre l’intention de l’auteur.",
+        "exemples": [
+          "Dans « Demain dès l’aube » de Victor Hugo, l’auteur évoque le deuil de sa fille. Les rimes croisées, les images visuelles et le rythme lent traduisent la douleur.",
+          "L’anaphore « je marcherai » renforce la détermination du poète à rendre hommage à son enfant."
+        ],
+        "conclusion": "Lire un poème, c’est écouter la musique des mots, mais l’analyser, c’est révéler la richesse cachée derrière chaque vers."
+      },
+      {
+        "titre": "Construire une argumentation",
+        "introduction": "L’argumentation est l’art de convaincre. Elle repose sur une idée que l’on défend avec des arguments et des exemples.",
+        "contenu": "Un bon texte argumentatif comporte une introduction présentant le sujet, un développement structuré autour de plusieurs arguments, chacun accompagné d’un exemple, et une conclusion qui résume la position de l’auteur. Il faut veiller à la logique des enchaînements et à la clarté du propos.",
+        "exemples": [
+          "Sujet : Faut-il interdire les téléphones en classe ? Argument : Ils peuvent distraire. Exemple : Certains élèves jouent au lieu d’écouter.",
+          "Contre-argument : Ils peuvent aussi servir pour chercher des informations rapidement."
+        ],
+        "conclusion": "Savoir argumenter, c’est faire preuve d’esprit critique et convaincre sans imposer."
+      },
+      {
+        "titre": "Rédiger une description",
+        "introduction": "La description permet de peindre un lieu, un personnage ou un objet avec des mots.",
+        "contenu": "Pour rédiger une bonne description, il faut utiliser des adjectifs, des comparaisons, et structurer son texte selon l’ordre de découverte (du général au détail). On peut aussi s’appuyer sur les cinq sens : que voit-on, entend-on, sent-on ?",
+        "exemples": [
+          "Il portait une longue veste noire, râpée aux manches. Ses yeux sombres semblaient lire dans les pensées.",
+          "La pièce sentait le bois vieilli, et la lumière filtrait à travers des rideaux poussiéreux."
+        ],
+        "conclusion": "La description enrichit un récit et immerge le lecteur dans un univers sensoriel et vivant."
+      },
+      {
+        "titre": "Utiliser les temps du récit",
+        "introduction": "Les temps du récit situent les actions dans le passé et permettent de raconter avec cohérence.",
+        "contenu": "Le passé simple est utilisé pour les actions ponctuelles, tandis que l’imparfait sert pour les descriptions ou les actions habituelles. Le plus-que-parfait indique une action antérieure à une autre déjà passée.",
+        "exemples": [
+          "Il entra dans la pièce (passé simple), la lumière brillait faiblement (imparfait).",
+          "Il avait pris soin de fermer la porte avant de partir (plus-que-parfait)."
+        ],
+        "conclusion": "Maîtriser les temps du passé permet d’écrire des récits fluides et clairs."
+      },
+      {
+        "titre": "Écrire un dialogue",
+        "introduction": "Le dialogue donne vie à un récit, il montre les interactions entre les personnages.",
+        "contenu": "Un dialogue bien construit respecte la ponctuation (guillemets, tirets), alterne les répliques, et reflète le caractère ou les émotions de chacun. Il peut inclure des verbes de parole pour plus de précision.",
+        "exemples": [
+          "— Tu viens ? demanda-t-il, impatient.",
+          "— Non, je préfère rester ici, répondit-elle d’une voix tremblante."
+        ],
+        "conclusion": "Le dialogue est un outil puissant pour faire avancer l’action ou révéler les sentiments des personnages."
+      }
+    ]
+  }
+]

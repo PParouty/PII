@@ -1,0 +1,157 @@
+[
+  {
+    "titre": "QCM : Les cellules, base du vivant",
+    "matiere": "SVT",
+    "description": "Testez vos connaissances sur les cellules et leur rôle dans les êtres vivants.",
+    "Niveau": "Facile",
+    "Type": "QCM",
+    "QCM": [
+      {
+        "question": "Qu’est-ce qu’un organisme unicellulaire ?",
+        "options": [
+          "Un être vivant sans cellule",
+          "Un être vivant composé d’une seule cellule",
+          "Un être vivant composé d’organes",
+          "Un être mort"
+        ],
+        "correction": "Un être vivant composé d’une seule cellule"
+      },
+      {
+        "question": "Le corps humain est composé de :",
+        "options": [
+          "Quelques cellules",
+          "Des cellules et de l’air",
+          "Milliards de cellules spécialisées",
+          "Uniquement de l’eau"
+        ],
+        "correction": "Milliards de cellules spécialisées"
+      }
+    ]
+  },
+  {
+    "titre": "QCM : La digestion humaine",
+    "matiere": "SVT",
+    "description": "Connaissez-vous les différentes étapes de la digestion ?",
+    "Niveau": "Moyen",
+    "Type": "QCM",
+    "QCM": [
+      {
+        "question": "Où commence la digestion ?",
+        "options": [
+          "Dans l’estomac",
+          "Dans la bouche",
+          "Dans l’intestin",
+          "Dans le foie"
+        ],
+        "correction": "Dans la bouche"
+      },
+      {
+        "question": "Quel est le rôle des enzymes ?",
+        "options": [
+          "Faire circuler le sang",
+          "Transformer les nutriments",
+          "Décomposer les aliments",
+          "Détruire les microbes"
+        ],
+        "correction": "Décomposer les aliments"
+      }
+    ]
+  },
+  {
+    "titre": "QCM : Le cycle de l’eau",
+    "matiere": "SVT",
+    "description": "Évaluez votre compréhension du cycle naturel de l’eau sur Terre.",
+    "Niveau": "Facile",
+    "Type": "QCM",
+    "QCM": [
+      {
+        "question": "Quelle est la première étape du cycle de l’eau ?",
+        "options": [
+          "Condensation",
+          "Précipitations",
+          "Ruissellement",
+          "Évaporation"
+        ],
+        "correction": "Évaporation"
+      },
+      {
+        "question": "Que se passe-t-il après la condensation ?",
+        "options": [
+          "Évaporation",
+          "Formation de pluie",
+          "Infiltration",
+          "Glaciation"
+        ],
+        "correction": "Formation de pluie"
+      }
+    ]
+  },
+  {
+    "titre": "QCM : Le rôle des organes dans la respiration",
+    "matiere": "SVT",
+    "description": "Testez vos connaissances sur les échanges gazeux et les organes respiratoires.",
+    "Niveau": "Moyen",
+    "Type": "QCM",
+    "QCM": [
+      {
+        "question": "Quel organe effectue les échanges gazeux ?",
+        "options": [
+          "Le cœur",
+          "Les reins",
+          "Les alvéoles pulmonaires",
+          "Le foie"
+        ],
+        "correction": "Les alvéoles pulmonaires"
+      },
+      {
+        "question": "Lors de l’inspiration, que fait le corps ?",
+        "options": [
+          "Rejette du dioxygène",
+          "Absorbe de l’oxygène",
+          "Transforme le CO₂",
+          "Filtre l’air"
+        ],
+        "correction": "Absorbe de l’oxygène"
+      }
+    ]
+  },
+  {
+    "titre": "QCM : La classification du vivant",
+    "matiere": "SVT",
+    "description": "Vérifiez vos connaissances sur la façon dont les êtres vivants sont classés.",
+    "Niveau": "Difficile",
+    "Type": "QCM",
+    "QCM": [
+      {
+        "question": "Quel est l’intérêt de classifier les êtres vivants ?",
+        "options": [
+          "Pour leur donner un prix",
+          "Pour mieux les étudier",
+          "Pour les vendre",
+          "Pour les nourrir"
+        ],
+        "correction": "Pour mieux les étudier"
+      },
+      {
+        "question": "À quel règne appartient l’être humain ?",
+        "options": [
+          "Végétal",
+          "Fongique",
+          "Animal",
+          "Minéral"
+        ],
+        "correction": "Animal"
+      },
+      {
+        "question": "Le chêne appartient à quel genre ?",
+        "options": [
+          "Homo",
+          "Canis",
+          "Quercus",
+          "Musca"
+        ],
+        "correction": "Quercus"
+      }
+    ]
+  }
+]

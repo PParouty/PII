@@ -157,3 +157,14 @@ C:\Users\Castl\Music\PII\ProjetPII\Backend\obj\Debug\net9.0\ref\Backend.dll
 C:\Users\Castl\Music\PII\ProjetPII\Backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Castl\Music\PII\ProjetPII\Backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Castl\Music\PII\ProjetPII\Backend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Castl\Music\PII\ProjetPII\Backend\bin\Debug\net9.0\Data\DataSeeds\cours_seed.json
+C:\Users\Castl\Music\PII\ProjetPII\Backend\bin\Debug\net9.0\Data\DataSeeds\cours_seed_enriched.json
+C:\Users\Castl\Music\PII\ProjetPII\Backend\bin\Debug\net9.0\Data\DataSeeds\cours_seed_SVT.json
+C:\Users\Castl\Music\PII\ProjetPII\Backend\bin\Debug\net9.0\Data\DataSeeds\cours_seed_PhysiqueChimie.json
+C:\Users\Castl\Music\PII\ProjetPII\Backend\bin\Debug\net9.0\Data\DataSeeds\cours_seed_Musique.json
+C:\Users\Castl\Music\PII\ProjetPII\Backend\bin\Debug\net9.0\Data\DataSeeds\cours_seed_ArtsPlastiques.json
+C:\Users\Castl\Music\PII\ProjetPII\Backend\bin\Debug\net9.0\Data\DataSeeds\exercices_seed_francais.json
+C:\Users\Castl\Music\PII\ProjetPII\Backend\bin\Debug\net9.0\Data\DataSeeds\exercices_seed_ArtsPlastiques.json
+C:\Users\Castl\Music\PII\ProjetPII\Backend\bin\Debug\net9.0\Data\DataSeeds\exercices_seed_physique_chimie.json
+C:\Users\Castl\Music\PII\ProjetPII\Backend\bin\Debug\net9.0\Data\DataSeeds\exercices_seed_musique.json
+C:\Users\Castl\Music\PII\ProjetPII\Backend\bin\Debug\net9.0\Data\DataSeeds\exercices_seed_svt.json

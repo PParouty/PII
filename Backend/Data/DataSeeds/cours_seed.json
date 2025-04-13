@@ -1,0 +1,112 @@
+[
+    {
+        "matiere": "Français",
+        "methodes": [
+            {
+                "titre": "Analyser un poème",
+                "introduction": "La poésie utilise des formes particulières pour évoquer des émotions, des idées ou des images.",
+                "contenu": "On peut analyser un poème en regardant ses rimes, son rythme, ses figures de style (métaphore, allitération…).",
+                "exemples": [
+                    "Exemple : Dans 'Demain, dès l’aube' de Victor Hugo, l’auteur exprime le deuil.",
+                    "La métaphore 'je marcherai les yeux fixés sur mes pensées' montre l’introspection."
+                ],
+                "conclusion": "Comprendre un poème, c’est plonger dans les mots pour saisir ce que l’auteur ressent ou veut transmettre."
+            },
+            {
+                "titre": "Construire une argumentation",
+                "introduction": "Argumenter, c’est défendre une opinion à l’écrit ou à l’oral.",
+                "contenu": "Une bonne argumentation commence par une idée claire, suivie d’un exemple et d’une explication.",
+                "exemples": [
+                    "Je pense qu’il faut protéger les animaux. → Exemple : des espèces disparaissent chaque jour.",
+                    "Argument : Protéger la planète, c’est protéger notre avenir."
+                ],
+                "conclusion": "L’argumentation permet de convaincre le lecteur ou l’auditeur grâce à des idées solides et bien illustrées."
+            }
+        ]
+    },
+    {
+        "matiere": "Maths",
+        "methodes": [
+            {
+                "titre": "Multiplier des nombres entiers",
+                "introduction": "La multiplication est une addition répétée.",
+                "contenu": "On utilise des techniques de calcul comme la méthode en colonne ou les tables de multiplication.",
+                "exemples": [
+                    "4 x 3 = 12 car 4 + 4 + 4 = 12",
+                    "27 x 6 → poser en colonne pour calculer facilement."
+                ],
+                "conclusion": "Savoir multiplier est essentiel pour résoudre des problèmes de la vie quotidienne."
+            },
+            {
+                "titre": "Utiliser les proportions",
+                "introduction": "Une proportion est une égalité entre deux rapports.",
+                "contenu": "Elles sont utiles pour faire des conversions ou des règles de trois.",
+                "exemples": [
+                    "Si 3 pommes coûtent 1,50€, combien coûtent 6 pommes ?",
+                    "On pose 3 → 1,50 et 6 → x. Par règle de trois, x = (6 × 1,50) / 3 = 3€"
+                ],
+                "conclusion": "Les proportions aident à faire des calculs précis et rapides."
+            }
+        ]
+    },
+    {
+        "matiere": "SVT",
+        "methodes": [
+            {
+                "titre": "Comprendre la reproduction chez les êtres vivants",
+                "introduction": "Tous les êtres vivants se reproduisent pour transmettre la vie.",
+                "contenu": "Il existe deux grandes formes de reproduction : sexuée et asexuée.",
+                "exemples": [
+                    "Chez les humains, la reproduction est sexuée : deux cellules se rencontrent.",
+                    "Chez l’hydre, la reproduction est asexuée : elle se divise pour créer un nouvel être vivant."
+                ],
+                "conclusion": "Comprendre la reproduction, c’est comprendre la continuité de la vie."
+            }
+        ]
+    },
+    {
+        "matiere": "Physique",
+        "methodes": [
+            {
+                "titre": "Observer les états de la matière",
+                "introduction": "La matière existe sous trois états principaux : solide, liquide et gazeux.",
+                "contenu": "La température peut faire passer la matière d’un état à un autre.",
+                "exemples": [
+                    "L’eau solide (glace) fond à 0°C → devient liquide.",
+                    "Elle bout à 100°C → devient vapeur (état gazeux)."
+                ],
+                "conclusion": "Ces transformations sont réversibles et observables facilement dans la vie quotidienne."
+            }
+        ]
+    },
+    {
+        "matiere": "Arts Plastiques",
+        "methodes": [
+            {
+                "titre": "Utiliser les couleurs primaires",
+                "introduction": "Les couleurs primaires sont à la base de toutes les autres couleurs.",
+                "contenu": "Rouge, bleu, jaune. Leur mélange permet d’obtenir les couleurs secondaires.",
+                "exemples": [
+                    "Rouge + jaune = orange",
+                    "Bleu + rouge = violet"
+                ],
+                "conclusion": "Connaître les couleurs primaires permet de créer des œuvres riches et variées."
+            }
+        ]
+    },
+    {
+        "matiere": "Musique",
+        "methodes": [
+            {
+                "titre": "Lire une portée musicale",
+                "introduction": "La portée est un ensemble de 5 lignes sur lesquelles les notes sont écrites.",
+                "contenu": "Chaque ligne ou interligne correspond à une note. La clé de sol permet d’identifier les notes aiguës.",
+                "exemples": [
+                    "La note placée sur la deuxième ligne est un sol.",
+                    "Entre la première et la deuxième ligne se trouve le mi."
+                ],
+                "conclusion": "Lire une portée permet de chanter ou jouer une mélodie."
+            }
+        ]
+    }
+]

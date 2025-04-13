@@ -1,0 +1,147 @@
+[
+    {
+        "titre": "QCM : Identifier le sujet dans une phrase",
+        "matiere": "Français",
+        "description": "Testez votre capacité à repérer le sujet dans différentes phrases.",
+        "Niveau": "Facile",
+        "Type": "QCM",
+        "QCM": [
+            {
+                "question": "Qui est le sujet dans la phrase : 'Les enfants jouent dans le jardin' ?",
+                "options": [
+                    "jouent",
+                    "Les enfants",
+                    "le jardin",
+                    "dans"
+                ],
+                "correction": "Les enfants"
+            },
+            {
+                "question": "Dans 'Mon frère adore les gâteaux', quel est le sujet ?",
+                "options": [
+                    "Mon frère",
+                    "adore",
+                    "les gâteaux",
+                    "gâteaux"
+                ],
+                "correction": "Mon frère"
+            }
+        ]
+    },
+    {
+        "titre": "QCM : Accorder le verbe avec le sujet",
+        "matiere": "Français",
+        "description": "Vérifiez si vous maîtrisez l'accord du verbe avec le sujet.",
+        "Niveau": "Moyen",
+        "Type": "QCM",
+        "QCM": [
+            {
+                "question": "Quel accord est correct ?",
+                "options": [
+                    "Les filles court vite",
+                    "Les filles courent vite",
+                    "La fille courent vite",
+                    "Les fille court vite"
+                ],
+                "correction": "Les filles courent vite"
+            },
+            {
+                "question": "Complétez correctement : 'Tu ____ très bien aujourd'hui.'",
+                "options": [
+                    "parlez",
+                    "parle",
+                    "parlons",
+                    "parles"
+                ],
+                "correction": "parles"
+            }
+        ]
+    },
+    {
+        "titre": "QCM : Nature et fonction des mots",
+        "matiere": "Français",
+        "description": "Distinguez la nature et la fonction des mots dans une phrase.",
+        "Niveau": "Moyen",
+        "Type": "QCM",
+        "QCM": [
+            {
+                "question": "'Le chat dort.' Quelle est la fonction du mot 'chat' ?",
+                "options": [
+                    "Complément",
+                    "Verbe",
+                    "Sujet",
+                    "Adjectif"
+                ],
+                "correction": "Sujet"
+            },
+            {
+                "question": "Dans 'Il mange une pomme', quel est le mot de nature verbale ?",
+                "options": [
+                    "Il",
+                    "mange",
+                    "une",
+                    "pomme"
+                ],
+                "correction": "mange"
+            }
+        ]
+    },
+    {
+        "titre": "QCM : Les temps du passé",
+        "matiere": "Français",
+        "description": "Choisissez le bon temps passé selon le contexte.",
+        "Niveau": "Difficile",
+        "Type": "QCM",
+        "QCM": [
+            {
+                "question": "'Quand j'étais petit, je ____ souvent au parc.'",
+                "options": [
+                    "jouais",
+                    "ai joué",
+                    "avait joué",
+                    "joue"
+                ],
+                "correction": "jouais"
+            },
+            {
+                "question": "'Hier, nous ____ un film au cinéma.'",
+                "options": [
+                    "regardions",
+                    "avons regardé",
+                    "regarde",
+                    "regardé"
+                ],
+                "correction": "avons regardé"
+            }
+        ]
+    },
+    {
+        "titre": "QCM : Structurer un paragraphe",
+        "matiere": "Français",
+        "description": "Identifiez les bonnes pratiques pour structurer un paragraphe.",
+        "Niveau": "Difficile",
+        "Type": "QCM",
+        "QCM": [
+            {
+                "question": "Que doit contenir un paragraphe bien structuré ?",
+                "options": [
+                    "Une seule phrase",
+                    "Un exemple uniquement",
+                    "Une idée, un développement, un exemple, une conclusion",
+                    "Des phrases sans lien"
+                ],
+                "correction": "Une idée, un développement, un exemple, une conclusion"
+            },
+            {
+                "question": "Quel est le rôle d’une phrase de conclusion ?",
+                "options": [
+                    "Présenter une idée",
+                    "Illustrer un exemple",
+                    "Introduire un paragraphe",
+                    "Clore et résumer le propos"
+                ],
+                "correction": "Clore et résumer le propos"
+            }
+        ]
+    }
+]

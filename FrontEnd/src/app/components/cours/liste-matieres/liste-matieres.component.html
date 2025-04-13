@@ -1,15 +1,16 @@
 <mat-card class="matieres-container">
     <mat-card-title>📚 Choisissez une matière</mat-card-title>
 
-    <mat-list *ngIf="matieres.length > 0; else loading">
-        <mat-list-item *ngFor="let matiere of matieres">
-            <button mat-button color="primary" [routerLink]="['/cours', matiere]">
-                {{ matiere }}
-            </button>
-        </mat-list-item>
-    </mat-list>
+    <div class="matiere-grid" *ngIf="matieres.length > 0; else loading">
+        <div *ngFor="let matiere of matieres" class="matiere-card" [routerLink]="['/cours', matiere]">
+            <span class="matiere-label">{{ matiere }}</span>
+            <img class="matiere-icon" [src]="matiereImages[matiere]" [alt]="matiere" />
+        </div>
+    </div>
 
     <ng-template #loading>
         <p>⏳ Chargement des matières en cours...⏳</p>
     </ng-template>
 </mat-card>
+
+<img src="assets/img/matieres/maths.png" width="60" />

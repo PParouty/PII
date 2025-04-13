@@ -1,0 +1,197 @@
+[
+  {
+    "titre": "QCM : Identifier les familles d'instruments",
+    "matiere": "Musique",
+    "description": "Testez vos connaissances sur les grandes familles d'instruments de musique.",
+    "Niveau": "Facile",
+    "Type": "QCM",
+    "QCM": [
+      {
+        "question": "Dans quelle famille se trouve la guitare ?",
+        "options": [
+          "Vents",
+          "Percussions",
+          "Cordes",
+          "Claviers"
+        ],
+        "correction": "Cordes"
+      },
+      {
+        "question": "Quel instrument appartient à la famille des vents ?",
+        "options": [
+          "Piano",
+          "Flûte",
+          "Guitare",
+          "Xylophone"
+        ],
+        "correction": "Flûte"
+      },
+      {
+        "question": "Le tambour appartient à quelle famille ?",
+        "options": [
+          "Cordes",
+          "Claviers",
+          "Vents",
+          "Percussions"
+        ],
+        "correction": "Percussions"
+      }
+    ]
+  },
+  {
+    "titre": "QCM : Lire une partition",
+    "matiere": "Musique",
+    "description": "Vérifiez vos connaissances sur les éléments d'une partition musicale.",
+    "Niveau": "Moyen",
+    "Type": "QCM",
+    "QCM": [
+      {
+        "question": "Combien de lignes comporte une portée ?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "correction": "5"
+      },
+      {
+        "question": "Quelle clé est la plus utilisée pour les voix aiguës ?",
+        "options": [
+          "Clé de fa",
+          "Clé de sol",
+          "Clé d'ut",
+          "Clé de mi"
+        ],
+        "correction": "Clé de sol"
+      },
+      {
+        "question": "Comment s'appelle une pause d'un temps ?",
+        "options": [
+          "Soupir",
+          "Silence long",
+          "Noire",
+          "Blanche"
+        ],
+        "correction": "Soupir"
+      }
+    ]
+  },
+  {
+    "titre": "QCM : Les bases du chant",
+    "matiere": "Musique",
+    "description": "Évaluez vos connaissances sur la posture et la respiration en chant.",
+    "Niveau": "Facile",
+    "Type": "QCM",
+    "QCM": [
+      {
+        "question": "Quelle posture est recommandée pour chanter ?",
+        "options": [
+          "Assis affaissé",
+          "Debout voûté",
+          "Debout bien droit",
+          "Allongé"
+        ],
+        "correction": "Debout bien droit"
+      },
+      {
+        "question": "Quel muscle aide à respirer profondément ?",
+        "options": [
+          "Le diaphragme",
+          "Le bras",
+          "La jambe",
+          "Le cœur"
+        ],
+        "correction": "Le diaphragme"
+      },
+      {
+        "question": "Par où faut-il inspirer pour bien chanter ?",
+        "options": [
+          "Par la bouche",
+          "Par le nez",
+          "Par les oreilles",
+          "Par les yeux"
+        ],
+        "correction": "Par le nez"
+      }
+    ]
+  },
+  {
+    "titre": "QCM : Les émotions en musique",
+    "matiere": "Musique",
+    "description": "Explorez comment la musique peut transmettre différentes émotions.",
+    "Niveau": "Difficile",
+    "Type": "QCM",
+    "QCM": [
+      {
+        "question": "Quelle combinaison évoque souvent la tristesse ?",
+        "options": [
+          "Tempo rapide, accords majeurs",
+          "Tempo lent, accords mineurs",
+          "Tempo rapide, accords mineurs",
+          "Tempo lent, accords majeurs"
+        ],
+        "correction": "Tempo lent, accords mineurs"
+      },
+      {
+        "question": "Quel élément influence l'intensité émotionnelle d'une voix ?",
+        "options": [
+          "Le phrasé",
+          "La respiration",
+          "L’intonation",
+          "La couleur du micro"
+        ],
+        "correction": "L’intonation"
+      },
+      {
+        "question": "Qu’indique un rythme rapide dans une chanson ?",
+        "options": [
+          "La fatigue",
+          "La nostalgie",
+          "L’énergie ou l’excitation",
+          "Le désespoir"
+        ],
+        "correction": "L’énergie ou l’excitation"
+      }
+    ]
+  },
+  {
+    "titre": "QCM : Styles musicaux et créativité sonore",
+    "matiere": "Musique",
+    "description": "Associez les styles musicaux aux instruments et expérimentez la création sonore.",
+    "Niveau": "Moyen",
+    "Type": "QCM",
+    "QCM": [
+      {
+        "question": "Quel style met en avant l’improvisation ?",
+        "options": [
+          "Classique",
+          "Jazz",
+          "Rock",
+          "Rap"
+        ],
+        "correction": "Jazz"
+      },
+      {
+        "question": "Quel style repose principalement sur le rythme des mots ?",
+        "options": [
+          "Rock",
+          "Classique",
+          "Rap",
+          "Jazz"
+        ],
+        "correction": "Rap"
+      },
+      {
+        "question": "Quel objet du quotidien peut servir de percussion ?",
+        "options": [
+          "Un cahier",
+          "Un téléphone",
+          "Une boîte",
+          "Une règle"
+        ],
+        "correction": "Une boîte"
+      }
+    ]
+  }
+]

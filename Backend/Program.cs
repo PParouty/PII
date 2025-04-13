@@ -54,22 +54,22 @@ if (app.Environment.IsDevelopment())
 // LA (W)EED (seed) pour le remplissage de la bdd  ( on decommentera quand on ajoutera les tables cours et methode): 
 
 
-/*using (var scope = app.Services.CreateScope())
-{
-    var context = scope.ServiceProvider.GetRequiredService<DataContext>();
-    SeedData.Initialize(context);
-}
-
-*/
-
-
-/* remplissage cours et methode 
 using (var scope = app.Services.CreateScope())
 {
     var context = scope.ServiceProvider.GetRequiredService<DataContext>();
     SeedData.Initialize(context);
 }
-*/
+
+
+
+
+// remplissage cours et methode 
+/*using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<DataContext>();
+    SeedData.Initialize(context);
+}*/
+
 // Active les endpoints pour les API
 
 app.UseCors(policy =>

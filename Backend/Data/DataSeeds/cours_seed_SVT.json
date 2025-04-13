@@ -1,0 +1,107 @@
+[
+    {
+        "matiere": "SVT",
+        "methodes": [
+            {
+                "titre": "Comprendre les cellules",
+                "introduction": "Les cellules sont les unités de base du vivant.",
+                "contenu": "Tous les êtres vivants sont constitués de cellules. Certaines sont unicellulaires (une seule cellule), d'autres pluricellulaires.",
+                "exemples": [
+                    "La levure est un organisme unicellulaire.",
+                    "L'humain est composé de milliards de cellules spécialisées."
+                ],
+                "conclusion": "Connaître les cellules permet de mieux comprendre le fonctionnement du corps et du vivant."
+            },
+            {
+                "titre": "La digestion chez l’homme",
+                "introduction": "La digestion transforme les aliments en nutriments assimilables.",
+                "contenu": "Elle commence dans la bouche, se poursuit dans l’estomac et l’intestin. Les enzymes jouent un rôle clé.",
+                "exemples": [
+                    "La salive contient des enzymes qui décomposent l’amidon.",
+                    "L’intestin grêle absorbe les nutriments."
+                ],
+                "conclusion": "La digestion est un processus essentiel pour fournir de l’énergie à l’organisme."
+            },
+            {
+                "titre": "Les écosystèmes",
+                "introduction": "Un écosystème est un ensemble d’êtres vivants en interaction avec leur environnement.",
+                "contenu": "Il existe différents types d’écosystèmes : forêt, rivière, désert… Chaque espèce y occupe une niche.",
+                "exemples": [
+                    "Dans une mare : grenouilles, plantes aquatiques, insectes, bactéries.",
+                    "Les forêts abritent une grande biodiversité."
+                ],
+                "conclusion": "Préserver les écosystèmes est crucial pour l'équilibre naturel."
+            },
+            {
+                "titre": "Le cycle de l’eau",
+                "introduction": "L’eau circule constamment sur Terre selon un cycle naturel.",
+                "contenu": "Les étapes principales sont : évaporation, condensation, précipitations et ruissellement.",
+                "exemples": [
+                    "L’eau des océans s’évapore sous l’effet du soleil.",
+                    "Les nuages se forment par condensation, puis libèrent la pluie."
+                ],
+                "conclusion": "Ce cycle permet de maintenir la vie et régule le climat."
+            },
+            {
+                "titre": "Le rôle des organes dans la respiration",
+                "introduction": "Les organes respiratoires permettent l’entrée d’oxygène et la sortie de dioxyde de carbone.",
+                "contenu": "Les poumons, la trachée et les bronches sont impliqués dans la respiration chez l’humain.",
+                "exemples": [
+                    "Les alvéoles pulmonaires permettent les échanges gazeux.",
+                    "Lors de l'inspiration, l’air riche en O₂ entre dans les poumons."
+                ],
+                "conclusion": "La respiration est indispensable à la production d’énergie."
+            },
+            {
+                "titre": "La reproduction chez les plantes",
+                "introduction": "Les plantes utilisent des méthodes variées pour se reproduire.",
+                "contenu": "Certaines se reproduisent par graines, d'autres par bouturage ou spores.",
+                "exemples": [
+                    "Le haricot se reproduit par germination de graine.",
+                    "La mousse se reproduit par spores libérées dans l’air."
+                ],
+                "conclusion": "La reproduction assure la survie de l’espèce dans le temps."
+            },
+            {
+                "titre": "Le squelette et les muscles",
+                "introduction": "Ils forment le système locomoteur du corps humain.",
+                "contenu": "Le squelette soutient le corps, les muscles permettent le mouvement.",
+                "exemples": [
+                    "Les os protègent les organes vitaux.",
+                    "Les muscles se contractent pour faire bouger les articulations."
+                ],
+                "conclusion": "Une bonne hygiène de vie aide à préserver os et muscles."
+            },
+            {
+                "titre": "L’alimentation équilibrée",
+                "introduction": "Bien manger, c’est donner à son corps tout ce dont il a besoin.",
+                "contenu": "Une alimentation équilibrée comporte fruits, légumes, protéines, glucides et lipides.",
+                "exemples": [
+                    "Un repas équilibré : légumes + viande ou légumineuse + féculents.",
+                    "Les produits sucrés sont à limiter."
+                ],
+                "conclusion": "Une bonne alimentation favorise la croissance et la santé."
+            },
+            {
+                "titre": "Les changements au cours de la puberté",
+                "introduction": "La puberté est une étape de transformation du corps vers l'âge adulte.",
+                "contenu": "Elle entraîne des changements physiques (voix, pilosité) et émotionnels.",
+                "exemples": [
+                    "Chez les garçons : mue de la voix, augmentation de la masse musculaire.",
+                    "Chez les filles : développement des seins, premières règles."
+                ],
+                "conclusion": "C’est une étape naturelle à comprendre pour mieux la vivre."
+            },
+            {
+                "titre": "La classification du vivant",
+                "introduction": "Elle permet de regrouper les êtres vivants selon des critères communs.",
+                "contenu": "Les scientifiques classent les espèces en règnes, familles, genres, etc.",
+                "exemples": [
+                    "L’homme appartient au règne animal, famille des primates.",
+                    "Le chêne est un végétal, du genre Quercus."
+                ],
+                "conclusion": "Classer permet de mieux étudier et préserver la biodiversité."
+            }
+        ]
+    }
+]

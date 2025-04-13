@@ -1,0 +1,158 @@
+[
+  {
+    "titre": "QCM : Les états de la matière",
+    "matiere": "Physique-Chimie",
+    "description": "Testez vos connaissances sur les états physiques de la matière.",
+    "Niveau": "Facile",
+    "Type": "QCM",
+    "QCM": [
+      {
+        "question": "Quels sont les trois états de la matière ?",
+        "options": [
+          "Solide, liquide, gazeux",
+          "Solide, plastique, gazeux",
+          "Liquide, pâteux, gazeux",
+          "Glace, eau, vapeur"
+        ],
+        "correction": "Solide, liquide, gazeux"
+      },
+      {
+        "question": "Quel changement d'état correspond à la fusion ?",
+        "options": [
+          "Liquide → gaz",
+          "Solide → liquide",
+          "Gaz → liquide",
+          "Liquide → solide"
+        ],
+        "correction": "Solide → liquide"
+      },
+      {
+        "question": "Que devient l'eau à 100°C ?",
+        "options": [
+          "Glace",
+          "Vapeur",
+          "Lave",
+          "Neige"
+        ],
+        "correction": "Vapeur"
+      }
+    ]
+  },
+  {
+    "titre": "QCM : Lumière et ombres",
+    "matiere": "Physique-Chimie",
+    "description": "Vérifiez vos connaissances sur la lumière et la formation des ombres.",
+    "Niveau": "Facile",
+    "Type": "QCM",
+    "QCM": [
+      {
+        "question": "Comment se propage la lumière ?",
+        "options": [
+          "En cercle",
+          "En spirale",
+          "En ligne droite",
+          "En vague"
+        ],
+        "correction": "En ligne droite"
+      },
+      {
+        "question": "Que se passe-t-il quand un objet opaque bloque la lumière ?",
+        "options": [
+          "Une ombre est créée",
+          "La lumière rebondit",
+          "L’objet devient lumineux",
+          "L’objet disparaît"
+        ],
+        "correction": "Une ombre est créée"
+      },
+      {
+        "question": "Quel type d'objet laisse passer la lumière ?",
+        "options": [
+          "Opaque",
+          "Translucide",
+          "Transparent",
+          "Réfléchissant"
+        ],
+        "correction": "Transparent"
+      }
+    ]
+  },
+  {
+    "titre": "QCM : Les circuits électriques simples",
+    "matiere": "Physique-Chimie",
+    "description": "Évaluez vos connaissances de base sur les circuits électriques.",
+    "Niveau": "Facile",
+    "Type": "QCM",
+    "QCM": [
+      {
+        "question": "Quel élément est nécessaire pour fermer un circuit ?",
+        "options": [
+          "Pile",
+          "Interrupteur",
+          "Fil",
+          "Tous les éléments précédents"
+        ],
+        "correction": "Tous les éléments précédents"
+      },
+      {
+        "question": "Que se passe-t-il si le circuit est ouvert ?",
+        "options": [
+          "La lampe brille faiblement",
+          "Le courant passe encore",
+          "Le courant ne passe pas",
+          "La pile chauffe"
+        ],
+        "correction": "Le courant ne passe pas"
+      },
+      {
+        "question": "Quel matériau est un bon conducteur ?",
+        "options": [
+          "Cuivre",
+          "Bois",
+          "Plastique",
+          "Verre"
+        ],
+        "correction": "Cuivre"
+      }
+    ]
+  },
+  {
+    "titre": "QCM : Les changements d’états de l’eau",
+    "matiere": "Physique-Chimie",
+    "description": "Testez vos connaissances sur les températures de changement d'état de l’eau.",
+    "Niveau": "Moyen",
+    "Type": "QCM",
+    "QCM": [
+      {
+        "question": "À quelle température l’eau bout-elle ?",
+        "options": [
+          "0°C",
+          "50°C",
+          "100°C",
+          "200°C"
+        ],
+        "correction": "100°C"
+      },
+      {
+        "question": "Quel phénomène est observé quand l’eau devient vapeur ?",
+        "options": [
+          "Fusion",
+          "Condensation",
+          "Évaporation",
+          "Solidification"
+        ],
+        "correction": "Évaporation"
+      },
+      {
+        "question": "Quel état suit le refroidissement de la vapeur ?",
+        "options": [
+          "Solide",
+          "Liquide",
+          "Plasma",
+          "Gaz"
+        ],
+        "correction": "Liquide"
+      }
+    ]
+  }
+]
