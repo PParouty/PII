@@ -14,7 +14,7 @@ namespace backend.Data
             //ImportExercices(context, "exercices_seed_ArtsPlastiques.json");
             //   ImportExercices(context, "exercices_seed_physique_chimie.json");
             //ImportExercices(context, "exercices_seed_musique.json");
-            ImportExercices(context, "exercices_seed_svt.json");
+            //ImportExercices(context, "exercices_seed_svt.json");
         }
 
         // gesiton Cours 
@@ -24,7 +24,7 @@ namespace backend.Data
 
             if (!File.Exists(path))
             {
-                Console.WriteLine($" Fichier JSON Cours introuvable : {path}");
+                Console.WriteLine($" Fichier introuvable : {path}");
                 return;
             }
 
@@ -36,7 +36,7 @@ namespace backend.Data
 
             if (coursList == null)
             {
-                Console.WriteLine(" Impossible de désérialiser les cours.");
+                Console.WriteLine(" null detecté.");
                 return;
             }
 
@@ -63,7 +63,7 @@ namespace backend.Data
             }
 
             context.SaveChanges();
-            Console.WriteLine(" Import des cours terminé !");
+
         }
 
         // gesiton Exercices 
@@ -73,7 +73,7 @@ namespace backend.Data
 
             if (!File.Exists(path))
             {
-                Console.WriteLine($" Fichier JSON Exercices introuvable : {path}");
+                Console.WriteLine($" Fichier introuvable : {path}");
                 return;
             }
 
@@ -87,7 +87,7 @@ namespace backend.Data
 
             if (exercices == null)
             {
-                Console.WriteLine(" Impossible de désérialiser les exercices.");
+                Console.WriteLine(" null detecté.");
                 return;
             }
 
@@ -108,7 +108,7 @@ namespace backend.Data
             }
 
             context.SaveChanges();
-            Console.WriteLine(" Exercices importés avec succès !");
+
         }
     }
 }

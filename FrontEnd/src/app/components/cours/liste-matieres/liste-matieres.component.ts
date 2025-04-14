@@ -7,6 +7,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { RouterModule } from '@angular/router';
 
+// listing des matieres 
 
 @Component({
   selector: 'app-liste-matieres',
@@ -52,20 +53,3 @@ export class ListeMatieresComponent {
 
 
 
-/* vieux truc :
-@Component({
-  selector: 'app-liste-matieres',
-  standalone: true,
-  imports: [CommonModule, MatListModule, MatCardModule, MatButtonModule, RouterModule],
-  templateUrl: './liste-matieres.component.html',
-  styleUrls: ['./liste-matieres.component.css']
-})
-export class ListeMatieresComponent {
-  matieres: string[];
-
-  constructor(private coursService: CoursService) {
-    this.matieres = this.coursService.getMatieres();
-  }
-}
-
-*/

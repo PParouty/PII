@@ -13,7 +13,7 @@ namespace backend.Models
         // Pour la BDD il va nous falloir une clef etrangere : 
         public int ExerciceId { get; set; } // ici clef etrangere pour que ça puisse etre referencé depuis la table des exercices
         public Exercice? Exercice { get; set; } // va aider pour la navigation j'espere sinon ça restera inutilisé
-        // 
-        //  (actuelement à cette etape cest compliqué il y a beaucoup d'essai-erreur)
+
+
     }
 }

@@ -22,4 +22,4 @@ export const routes: Routes = [
 
 
 
-// sur cette page on apporte les ROUTES cest a dire les fichier depuis le dossier PAGES 
+// sur cette page on apporte les ROUTES 

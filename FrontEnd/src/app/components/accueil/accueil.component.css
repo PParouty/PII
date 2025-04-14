@@ -28,7 +28,7 @@
     animation: slideIn 1s ease;
 }
 
-/* Animations */
+/* Petite animation d'apparition */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -53,7 +53,7 @@
     }
 }
 
-/* Responsive */
+/* rendre le truc responsive */
 @media screen and (max-width: 768px) {
     .accueil-container {
         flex-direction: column;

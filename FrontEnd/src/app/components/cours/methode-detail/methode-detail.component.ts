@@ -7,7 +7,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { Router } from '@angular/router';
 
-
+// on affiche le contenu de la methode
 // le debut cest pareil : 
 
 @Component({
@@ -60,40 +60,3 @@ export class MethodeDetailComponent {
 
 
 
-
-
-/*
-
-Vieux truc : 
-
-
-@Component({
-  selector: 'app-methode-detail',
-  standalone: true,
-  imports: [CommonModule, MatButtonModule, MatCardModule],
-  templateUrl: './methode-detail.component.html',
-  styleUrls: ['./methode-detail.component.css']
-})
-export class MethodeDetailComponent {
-  methode!: Methode;
-
-  constructor(
-    private route: ActivatedRoute,
-    private router: Router,
-    private coursService: CoursService
-  ) { }
-
-  ngOnInit() {
-    const matiere = this.route.snapshot.paramMap.get('matiere');
-    const id = Number(this.route.snapshot.paramMap.get('id'));  // Snapshot => recupere la valeur de la route qd le composant ce charge. ParMap recupere dans l'url l'element qu'on lui demande, ici c'est l'ID. pas tres secure mais cest un debut 
-
-    if (matiere) {
-      this.methode = this.coursService.getMethodeById(matiere, id) as Methode;
-    }
-  }
-
-  retour() {
-    this.router.navigate(['/cours', this.route.snapshot.paramMap.get('matiere')]);
-  }
-}
-  */

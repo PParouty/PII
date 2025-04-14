@@ -38,7 +38,7 @@ namespace backend.Data
                 .Property(q => q.Options)
                 .HasConversion(
                     v => string.Join("|||", v),               // a verifier
-                    v => v.Split("|||", StringSplitOptions.None).ToList() // a verifier (trouvé sur internet)
+                    v => v.Split("|||", StringSplitOptions.None).ToList() // a verifier (trouvé sur internet) -> fonctionne
                 );
 
             // Relation entre Exercice et QCM : 1-n normalement mais la c'est theorique
